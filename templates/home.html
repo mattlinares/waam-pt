@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="main">
+
+	<div class="main_title" id="start" data-src="{{ url_for("static", filename="images/main.JPG") }}">
+		<div class="lead">
+			{% trans %}Portugal’s Lost Generation{% endtrans %}
+			<p class="little">To be Portuguese, for many today, is to escape Portugal, to seek hope and somewhere else to call home.</p>
+		</div>
+		<span class="scroll-indicator">
+			<div class="icon icon-arrow-down"></div>
+		</span>
+	</div>
+
+	<div class="img-caption">Image: Dissolving Youth, by <a href="https://secure.flickr.com/photos/hom26/6647568641">hom26, Creative Commons</a></div>
+
+
+	<div class="article container" id="start">
+		<div class="body">
+			<p>During recent years of financial mayhem, Portugal has seen emigration numbers rising year on year. Mass unemployment, falling wages and soaring taxes have lead to a historic high in 2012, with 121,418 people officially leaving the country.</p>
+			
+			<p>Figures since then have been higher than the peak of emigration seen during the colonial war of the late 1960s,  marked by outbound figures of 120,239 in 1966.</p>
+
+			<div class="iframe datachart" data-src="http://cf.datawrapper.de/kUMfC/1/" data-ratio="1.625"></div>
+
+			<p>Berlin-based Portuguese journalist Júlio Gomes describes himself as “just one of these anonymous citizens who were forced to leave due to circumstances”.</p>
+
+			<p>In his stark assessment, the wider economic paradigm is to blame for the plight of folks like him.</p>
+
+			<div class="quote">
+ 				<div class="body">Neoliberal democracy has expelled more citizens in the last three years than the fascist, colonial regime did in the sixties.</div>
+ 				<div class="author">Júlio Gomes, 38, left Porto in 2011 and now lives in Berlin with his youngest child.</div>
+ 			</div>
+
+			<p>The slump is now a sustained, historical episode affecting a whole generation. The timeline below traces Portugal’s migration in the last 50 years, from dictatorship, through partner in the European Union dream, to Eurozone emergency case.</p>
+		</div>
+	</div>
+
+			<div class="iframe" data-src="http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AvozAJju7j7ydFp0akVNeERDcFJMNnExVUpfbnFjcGc&font=Bevan-PotanoSans&maptype=toner&lang=en&height=650" data-ratio="1.5"></div>
+
+	<div class="article container" id="start">
+		<div class="body">
+
+			<p>It’s striking to hear the melancholy and psychological impact that the situation has had, both on emigrants and those who have stayed amongst the dwindling population.</p>
+
+			<div class="quote">
+ 				<div class="body">I miss my country but I don’t even know if what I miss still exists.</div>
+ 				<div class="author">Maria Vasconcelos, 33, now in Germany with her Portuguese family due to conditions in Portugal</div>
+ 			</div>
+
+			<p>Maria, 33, also fled Portugal driven by a lack of opportunity, weak social support systems and a general sense of national depression.</p>
+
+			<p>Her journey took her to Spain and England, before she settled in Germany which she found to be the most supportive to a wandering migrant.</p>
+
+			<p>She is now bringing up her son in Berlin, yet another youngster who will not be raised in Portugal.</p>
+
+			<div class="iframe" data-src="http://www.youtube.com/embed/Vmnap-kAMqw" data-ratio="1.625"></div>
+
+			<p>Let down by a society which cannot support its residents, she laments that “it becomes very difficult to live in a place where you feel disrespectful all the time and where you have very little tools to fight against it.”</p>
+
+		<hr>
+
+		<p>In a surprising 2011 address, Prime Minister Pedro Passos Coelho advised that professionals, specifically teachers, struggling to find work in Portugal, should look outside of the country:</p>
+
+		<div class="quote">
+				<div class="body">There are a lot of teachers that don’t have a job in Portugal at the moment... They can look to the wider Portuguese language market for an alternative.</div>
+		</div>
+
+		<p>Despite not expecting such discouraging language from a man entrusted to lead and champion the nation‘s fortunes, many citizens have followed the spirit of his suggestion.</p>
+
+		<div class="iframe datachart" data-src="http://cf.datawrapper.de/afIFI/1/" data-ratio="1.625"></div>
+
+		<p>Portugal has become a recruiter’s paradise. In the first half of 2014, <a href="http://www.tvi24.iol.pt/sociedade/medicos/a-carta-de-um-medico-que-se-despede-de-portugal">about 200 Portuguese doctors</a> (<em>link in Portuguese</em>), similarly unable to find suitable work at home.</p>
+
+		<p>According to the Portuguese Medical Association, the country’s health service will lose a total of 400 doctors by the end of the year.</p>
+
+		<p>Emigration of Portuguese citizens across the world is not a new phenomenon, but the diaspora is now bigger than ever. Portugal is the European country with the most emigrants by population – roughly 21% of Portuguese citizens are absent. Most of them have dispersed across Europe in search of work and a better life. </p>
+
+		<p>The Portuguese government’s Emigration Report, released for the first time in July 2014, states that although there is no official data available, emigration to Portuguese language countries like Angola and Mozambique is also a relevant phenomenon.</p>
+
+		<p>The ten countries with the biggest Portuguese populations are highlighted on the map below, with nearby European nations sustaining the majority.</p>
+
+		</div>
+	</div>
+
+    <div id="map-canvas"></div>
+
+
+	<div class="article container" id="opensource">
+		<div class="body">
+
+		<p>This is how a nation haemorrhages people and is drained of life.</p>
+
+		<p>The once prosperous and proud Portuguese fleet, has been swept aside by economic winds, unable to support its own and, for now, shrinks at the command of the European elite.</p>
+
+		<hr>
+
+		<p>This project was realised during the "We Are All Migrants" workshop at the 2014 Berliner Gazette conference SLOW POLITICS. Other projects and outcomes are detailed at the <a href="http://berlinergazette.de/slow-politics-results/">documentation page</a>.</p>
+		</div>
+	</div>
+
+</div><!-- /.container -->
+
+{% endblock %}

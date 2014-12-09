@@ -1,0 +1,29 @@
+<footer class="footer">
+	<div>
+		<ul class="list-inline logos">
+			<li class="">
+				<a href="http://www.berlinergazette.de/" target="_blank">
+					<img class="bg_logo" src="http://berlinergazette.de/portugals-lost-generation/static/logos/bg-logo-white.png" alt="Berliner Gazette">
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="row clearfix">
+		{% trans %}
+		<div><a href="https://twitter.com/AbiolDeng" target="_blank">Abiol Lual Deng</a>, Lucia Forcioli-Conti, Julius Faber, <a href="https://twitter.com/CristinaLPombo" target="_blank">Cristina Pombo</a>,<br> <a href="http://matt.microsplash.org/" target="_blank">Matthew Linares</a>, 
+		<a href="http://globalvoicesonline.org/author/sara-moreira/" target="_blank">Sara Moreira</a>, and <a href="https://twitter.com/nunezcla" target="_blank">Claudia Nunez</a>.
+		</div>
+
+		<div><span class="mentions">CC-BY-NC-ND 3.0 <a href="http://berlinergazette.de/" target="_blank">Berliner Gazette</a>.</span></div>
+		{% endtrans %}
+	</div>
+	<div class="row github">
+		<img src="{{url_for("static", filename="logos/github.png")}}"/> <a href="https://github.com/mattlinares/waam-pt" target="_blank">{% trans %}Give us feedback and grab the code{% endtrans %}</a>
+	</div>
+	<div class="row thanks">
+		{% trans %}
+		<div>Thanks to <a href="https://github.com/jplusplus/resonate2014">Journalism++ for this Resonate code</a>.</div>
+		{% endtrans %}
+	</div>
+
+</footer>

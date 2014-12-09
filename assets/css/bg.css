@@ -1,0 +1,51 @@
+#map-canvas { width:500px; height:400px; }
+.layer-wizard-search-label { font-family: sans-serif }
+#map-canvas {
+	width:85%;
+	height:500px;
+	margin: auto;
+  margin-bottom: 40px;
+ }
+
+ #map-top-10 {
+ 	width:578px;
+ 	padding: 20px 0 0 20px;
+ 	margin: auto; 
+ }
+
+ .img-caption {
+  color: #999999;
+  width: 578px;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.img-caption a {
+  color: #999999;
+  text-decoration: underline;
+}
+
+.datachart {
+  margin: 60px 0 60px !important;
+}
+
+# my blog
+
+.image-right-box {
+  float: right;
+  margin: 0 0 20px 20px;
+  background-color: #F5EDE4;
+  padding: 8px;
+}
+
+.image-right-box p, .image-right p, .image-full p {
+  font-size: 14px;
+  line-height: 1.4em;
+  margin-bottom: 6px;
+}
+
+.image-right {
+  display:block;
+  margin-bottom: 5px;
+  width: 100%;
+}

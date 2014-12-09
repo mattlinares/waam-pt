@@ -1,0 +1,9 @@
+*.pyc
+*.tar*
+.~*
+build/
+fabfile.py
+node_modules/
+static/.webassets-cache/
+static/gen/
+venv/
